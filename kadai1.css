@@ -30,7 +30,6 @@ main{
 .step-img1{
   height:150px;
   background-image:url(img/flow01.png);
-  background-position:bottom;
   background-size:cover;
 }
 
@@ -70,28 +69,28 @@ footer{
   header{
     width:100%;
   }
-  
+
   main{
     width:100%;
     display: block
   }
-  
+
   .step-box{
     width:90%;
     margin-bottom:20px;
     margin-left: 5%;
     margin-right: 5%
   }
-  
+
   .step-box:ntn-child(1){
     margin-top: 50px;
   }
-  
+
   .step-box:ntn-child(3){
     margin-bottom: 50px;
   }
-  
+
   footer{
     width:100%;
   }
-
+}
